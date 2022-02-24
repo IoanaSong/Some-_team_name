@@ -2,7 +2,7 @@ import sys
 skills = []
 nr_skills = 0
 
-info = sys.stdin.read().split("\n")
+info = open("a_an_example.in.txt").read().split("\n")
 first_line = info[0].split(" ")
 i = 0
 people = 0
